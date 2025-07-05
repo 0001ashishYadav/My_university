@@ -85,7 +85,7 @@ const Navbar = () => {
             >
               <GraduationCap size={32} />
               <span className="text-xl font-bold font-heading">
-                Prestige University
+                My University
               </span>
             </Link>
           </motion.div>
