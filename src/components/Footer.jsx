@@ -19,7 +19,7 @@ const Footer = () => {
             <div className="flex items-center space-x-3 text-white">
               <GraduationCap size={32} />
               <span className="text-xl font-bold font-heading">
-                Prestige University
+                My University
               </span>
             </div>
             <p className="text-gray-400 leading-relaxed">
@@ -112,9 +112,7 @@ const Footer = () => {
               </div>
               <div className="flex items-center space-x-3">
                 <Mail size={18} className="text-blue-500 flex-shrink-0" />
-                <span className="text-gray-400">
-                  info@prestigeuniversity.edu
-                </span>
+                <span className="text-gray-400">info@myuniversity.edu</span>
               </div>
             </div>
           </div>
@@ -122,7 +120,8 @@ const Footer = () => {
 
         <div className="border-t border-gray-800 py-6 flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
           <p className="text-gray-400 text-center md:text-left">
-            &copy; 2025 Prestige University. All rights reserved.
+            &copy; 2025 make by Ashish Yadav student of Inflection org pvt ltd.
+            All rights reserved.
           </p>
           <div className="flex space-x-6">
             {["Privacy Policy", "Terms of Service", "Accessibility"].map(
